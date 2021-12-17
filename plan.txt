@@ -1,0 +1,21 @@
+BlUE STEAKS - Max Schneider, David Deng, Faiyaz Rafee
+Plan for Lab 03: Get Empirical
+
+BinSearch.java
+LinSearch.java
+
+Search Driver create 5 OALs(ordered array lists) of length 0,1,2,3,4
+	-create 4 OALs of length 10,20,30,40
+	-do linear search on every index of every list
+		-record time before and after
+		-put the difference in a print statement
+		-create double array of every time
+		-create a method that compares the two array s and counts the number of times each one was faster. Returns both counters
+		
+	-do binary search on every index of list
+		-record time before and after.
+		-put the difference in a print statement
+		-create double array of every time
+		-create a method that compares the two array s and counts the number of times each one was faster. Returns both counters
+
+If LinSearch counter is above 0, the hypothesis is true
