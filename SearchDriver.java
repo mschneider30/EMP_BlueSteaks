@@ -28,25 +28,41 @@ public class SearchDriver {
 
 		int[] cien_mil = new int[100_000];
 
-		populate(uno);
-		populate(diez);
-		populate(cien);
-		populate(mil);
-		populate(diez_mil);
-		populate(cien_mil);
+		int[] millon = new int[1_000_000];
 
-		System.out.println(toString(uno));
-		System.out.println(toString(diez));
-		System.out.println(toString(cien));
-		System.out.println(toString(mil));
-		System.out.println(toString(diez_mil));
-		System.out.println(toString(cien_mil));
+		int[] diez_millon = new int[10_000_000];
 
-		int tst = 99_999;
+		int[] cien_millon = new int[100_000_000];
+
+		int[][] testcases = {uno, diez, cien, mil, diez_mil, cien_mil, millon, diez_millon, cien_millon};
+
+		for (int [] r : testcases){
+			populate(r);
+			System.out.println("\n===========================");
+			System.out.println("Starting to test array with length: " + r.length);
+			long start0 = System.currentTimeMillis();
+			int x = 0;
+			int d=100_000_000;
+			while (x < d) {
+				BinSearch.binSearch(r, r.length - 2);
+				x++;
+			}
+			long end0 = System.currentTimeMillis();
+			System.out.println("Time taken to binary search " + d + " times: " + (end0 - start0));
+
+			long start1 = System.currentTimeMillis();
+			int y = 99_990_000;
+			while (y < d) {
+				LinSearch.linSearch(r, r.length - 2);
+				y++;
+			}
+			long end1 = System.currentTimeMillis();
+			System.out.println("Time taken to linear search " + d + " times: " + (end1 - start1));
+
+			System.out.println("Binary Search was " + ((end1-start1) - (end0 - start0 )) + " ms faster!");
+		}
 
 
-		System.out.println(BinSearch.binSearch( uno, tst));
-		System.out.println(LinSearch.linSearch(cien_mil, tst));
 
 	}
 }
