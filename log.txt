@@ -1,0 +1,4 @@
+Summarized Plan:
+- Run linear search and binary search multiple times on certain array length and calculate average time spent.
+- Best to note ALL measurements to track possible outliers.
+- Repeat for arrays of exponentially larger lengths.
