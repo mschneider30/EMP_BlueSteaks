@@ -3,6 +3,13 @@
 ## <p align="center"> TNPG: Blue Steaks: Max Schneider, Faiyaz Rafee, David Deng
 
 ---
+  
+### Tests Performed
+  
+* Tested binary search and linear search on array lengths of increasing powers of 10 from 1 to 8. 
+* Calculate elapsed time by using the equation `Linear - Binary`. Positive differences mean that binary ran faster while negative differences mean that linear ran faster.
+* Ran multiple trials to eliminate possibilities of outliers.
+---
 
 ### Results
 
