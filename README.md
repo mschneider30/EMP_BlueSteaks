@@ -58,6 +58,7 @@
 | | 100000000 | 1 | 572218 | 572217 |
   
 * Unit of time is in **ms** (milliseconds)
+* Difference is calculated by `Linear - Binary`
 ---
 
 ### Conclusions
