@@ -4,5 +4,11 @@ L03 -- Get Empirical
 2021-12-20
 
 DISCO:
+- Binary search is always guaranteed to reach the target within a certain number of guesses regardless of where the target is in the array. 
+- Linear search depends more heavily on the location of the target and, as such, relies more on the length of the array. 
+- The difference between the maximum number of guesses and the length of the array grows really large as arrays reach longer lengths, hence, why the relationship between the times for linear search and binary search is EXPONENTIAL.
+- It is important to note that linear searches can work on all arrays, whereas binary search can only work on sorted arrays. This shortens the difference between the times of linear search and binary search considerably as it means that time must be dedicated to sorting the array before being able to perform a binary search. 
+- However, creating a new array and sorting the original array into the new one allows for the ability to find the target while sorting. Isn't this essentially linear search?
 
 QCC:
+- Are there other ways to search an array?

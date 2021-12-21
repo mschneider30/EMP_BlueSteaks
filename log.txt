@@ -2,3 +2,9 @@ Summarized Plan:
 - Run linear search and binary search multiple times on certain array length and calculate average time spent.
 - Best to note ALL measurements to track possible outliers.
 - Repeat for arrays of exponentially larger lengths.
+
+Refactored Plan:
+- Run linear search and binary search multiple times on certain array length and calculate average time spent.
+- Don't need to note all measurements since it crowds console and also any outliers can be eliminated by just taking more measurements so they don't affect the average significantly.
+- Repeat for arrays of increasingly larger lengths to better see relationship between binary search and linear search over time.
+- Printed headers for each test of a specific array length to better read our data.
