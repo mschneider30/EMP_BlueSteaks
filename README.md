@@ -73,3 +73,10 @@
 * While linear search and binary search initially require similar amounts of time to find a target within an array, as the array length increases, binary search becomes quicker at finding the target than linear search does.
 * This is due to the significantly slower increase of the maximum number of guesses binary search has to use compared to the maximum number of guesses linear search has to use. 
 ---
+
+### GALLERY TOUR
+  
+**Team Compile-Time-Errors**
+
+* Compares linear search and binary search as a ratio rather than a difference.
+* Runs binary search repeatedly until 1 ms is reached to avoid vagueness in the times for arrays of smaller lengths
