@@ -8,3 +8,7 @@ Refactored Plan:
 - Don't need to note all measurements since it crowds console and also any outliers can be eliminated by just taking more measurements so they don't affect the average significantly.
 - Repeat for arrays of increasingly larger lengths to better see relationship between binary search and linear search over time.
 - Printed headers for each test of a specific array length to better read our data.
+
+12/21/2021
+- Actually started logging dates wow
+- Added notes from Gallery Tour into the README
