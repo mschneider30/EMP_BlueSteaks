@@ -80,3 +80,10 @@
 
 * Compares linear search and binary search as a ratio rather than a difference.
 * Runs binary search repeatedly until 1 ms is reached to avoid vagueness in the times for arrays of smaller lengths
+
+**Team Pserbco**
+* Uses ints as it uses less memory which results in array sizes in the billions being searched thousands of times feasable without running into memory issues
+* Kept random number consistent between LinSearch and BinSearch, minimizing any unwanted skewing of data
+  
+**Team LYJ**
+* Didn't keep random number consistent between LinSearch and BinSearch. Might cause skewing of data, even if not major.
